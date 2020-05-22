@@ -132,7 +132,7 @@ void draw() {
     break;
   case 1:               //(zum Beispiel damit sich der Ball ebrickt bewegt wenn das Spielfeld schon ganz da ist)
     paddle.display();
-    //b.ballMovement();                      //Gibt dem Ball an wie er sich bewegen soll.
+    b.ballMovement();                      //Gibt dem Ball an wie er sich bewegen soll.
     b.checkWallHit();                      //Passt die oben genannte Bewegung des Balles je nach aufprall an.
     b.display();                           //zeigt den Ball an.
     displayBricks();
